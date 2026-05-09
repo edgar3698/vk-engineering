@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell($env:Path += \";C:\\\\Program Files\\\\GitHub CLI\"; gh repo create vk-engineering --public --source=. --remote=origin --push --description \"VK engineering — professional medical equipment repair landing page\")"
-    ]
-  }
-}
