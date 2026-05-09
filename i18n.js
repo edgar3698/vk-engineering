@@ -1,0 +1,97 @@
+window.I18N = {
+  en: {
+    "nav.about": "About",
+    "nav.services": "Services",
+    "nav.brands": "Brands",
+    "nav.why": "Why us",
+    "nav.contact": "Contact",
+
+    "hero.title1": "Professional",
+    "hero.title2": "medical equipment repair",
+    "hero.lead": "We restore precision instruments to factory-grade performance. Two decades of hands-on experience servicing rigid endoscopes, laparoscopic instruments and specialized surgical tools for clinics across Armenia, Georgia and Russia.",
+    "hero.phoneLabel": "Call or message:",
+
+    "cta.whatsapp": "WhatsApp",
+    "cta.viber": "Viber",
+    "cta.telegram": "Telegram",
+
+    "about.title": "About VK engineering",
+    "about.p1": "VK engineering is a specialized workshop dedicated to repairing rigid endoscopes, laparoscopic instruments and high-precision surgical tools. We work with leading manufacturers including Storz, Olympus, Wolf, Ethicon and BARD.",
+    "about.p2": "Our mission is simple: keep critical surgical equipment in flawless working order so that hospitals and clinics can focus on what matters — patient care. Every repair is performed with original techniques, calibrated tools and a careful quality check before return.",
+
+    "services.title": "Our services",
+    "services.sub": "Specialized repair for the instruments your operating room depends on.",
+    "services.s1.title": "Rigid Endoscopes & Laparoscopic Instruments",
+    "services.s1.body": "Full repair and refurbishment of rigid laparoscopic endoscopes and a wide range of laparoscopic instruments from leading brands including <strong>Storz</strong>, <strong>Olympus</strong> and <strong>Wolf</strong>. Optical realignment, seal replacement, mechanical restoration and end-to-end testing.",
+    "services.s2.title": "Ethicon Harmonic Handpieces",
+    "services.s2.body": "Expert decoding and comprehensive repair services for Ethicon Harmonic ultrasonic handpieces. We restore performance to OEM specifications and verify cutting and coagulation parameters before delivery.",
+    "services.s3.title": "BARD Magnum Biopsy Guns",
+    "services.s3.body": "Professional maintenance and repair of BARD Magnum biopsy instruments. Mechanism cleaning, spring tension calibration and full functional testing to ensure consistent, reliable triggering.",
+
+    "brands.title": "Brands we service",
+    "brands.sub": "Trusted by manufacturers, used by surgeons.",
+
+    "why.title": "Why choose us",
+    "why.c1.title": "20 years of experience",
+    "why.c1.body": "Two decades of hands-on repair work on the most demanding surgical instruments. Deep familiarity with every quirk of the brands we service.",
+    "why.c2.title": "Quality guarantee",
+    "why.c2.body": "Every repair undergoes calibrated testing before it leaves our workshop. Performance is verified, not assumed.",
+    "why.c3.title": "Fast turnaround",
+    "why.c3.body": "We understand that downtime costs more than the repair. Diagnostics start the day your equipment arrives.",
+    "why.c4.title": "Direct, honest service",
+    "why.c4.body": "No middlemen, no upselling. You speak directly with the technician working on your equipment.",
+
+    "contact.title": "Get in touch",
+    "contact.sub": "Send a message on the channel you prefer — we usually reply within hours.",
+
+    "footer.rights": "All rights reserved."
+  },
+
+  ru: {
+    "nav.about": "О нас",
+    "nav.services": "Услуги",
+    "nav.brands": "Бренды",
+    "nav.why": "Почему мы",
+    "nav.contact": "Контакты",
+
+    "hero.title1": "Профессиональный",
+    "hero.title2": "ремонт медицинского оборудования",
+    "hero.lead": "Мы восстанавливаем точные инструменты до заводских характеристик. Двадцать лет практического опыта обслуживания жёстких эндоскопов, лапароскопических инструментов и специализированных хирургических инструментов для клиник Армении, Грузии и России.",
+    "hero.phoneLabel": "Позвонить или написать:",
+
+    "cta.whatsapp": "WhatsApp",
+    "cta.viber": "Viber",
+    "cta.telegram": "Telegram",
+
+    "about.title": "О VK engineering",
+    "about.p1": "VK engineering — специализированная мастерская по ремонту жёстких эндоскопов, лапароскопических инструментов и высокоточных хирургических инструментов. Мы работаем с ведущими производителями: Storz, Olympus, Wolf, Ethicon и BARD.",
+    "about.p2": "Наша задача проста — поддерживать критически важное хирургическое оборудование в безупречном рабочем состоянии, чтобы больницы и клиники могли сосредоточиться на главном: заботе о пациентах. Каждый ремонт выполняется с применением оригинальных методик, калиброванных инструментов и тщательной проверкой качества перед возвратом.",
+
+    "services.title": "Наши услуги",
+    "services.sub": "Специализированный ремонт инструментов, на которые полагается ваша операционная.",
+    "services.s1.title": "Жёсткие эндоскопы и лапароскопические инструменты",
+    "services.s1.body": "Полный ремонт и восстановление жёстких лапароскопических эндоскопов и широкого ассортимента лапароскопических инструментов ведущих брендов: <strong>Storz</strong>, <strong>Olympus</strong> и <strong>Wolf</strong>. Юстировка оптики, замена уплотнений, механическое восстановление и комплексное тестирование.",
+    "services.s2.title": "Наконечники Ethicon Harmonic",
+    "services.s2.body": "Экспертное декодирование и комплексный ремонт ультразвуковых наконечников Ethicon Harmonic. Восстанавливаем характеристики до уровня OEM и проверяем параметры резки и коагуляции перед выдачей.",
+    "services.s3.title": "Биопсийные пистолеты BARD Magnum",
+    "services.s3.body": "Профессиональное обслуживание и ремонт биопсийных инструментов BARD Magnum. Очистка механизма, калибровка натяжения пружин и полное функциональное тестирование для стабильного и надёжного срабатывания.",
+
+    "brands.title": "Бренды, которые мы обслуживаем",
+    "brands.sub": "Доверие производителей, выбор хирургов.",
+
+    "why.title": "Почему выбирают нас",
+    "why.c1.title": "20 лет опыта",
+    "why.c1.body": "Два десятилетия практического ремонта самых требовательных хирургических инструментов. Глубокое знание всех особенностей брендов, с которыми мы работаем.",
+    "why.c2.title": "Гарантия качества",
+    "why.c2.body": "Каждый ремонт проходит калиброванное тестирование перед выдачей. Характеристики проверяются, а не предполагаются.",
+    "why.c3.title": "Быстрые сроки",
+    "why.c3.body": "Мы понимаем: простой стоит дороже ремонта. Диагностика начинается в день поступления оборудования.",
+    "why.c4.title": "Прямой и честный сервис",
+    "why.c4.body": "Никаких посредников и навязанных услуг. Вы общаетесь напрямую с мастером, который работает с вашим оборудованием.",
+
+    "contact.title": "Свяжитесь с нами",
+    "contact.sub": "Напишите в любом удобном мессенджере — обычно отвечаем в течение нескольких часов.",
+
+    "footer.rights": "Все права защищены."
+  }
+};
