@@ -535,6 +535,54 @@ a:hover { color: var(--cyan); }
   margin-bottom: 16px;
 }
 
+/* ------- Specialists ------- */
+.specialists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 460px));
+  gap: 28px;
+  justify-content: center;
+}
+.specialist-card {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s var(--ease);
+}
+.specialist-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(0,176,222,.4);
+}
+.specialist-photo {
+  flex-shrink: 0;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--bg-alt);
+  border: 3px solid #fff;
+  box-shadow: 0 8px 24px rgba(0,42,104,.18);
+}
+.specialist-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.specialist-info { flex: 1; min-width: 0; }
+.specialist-name { margin-bottom: 8px; }
+.specialist-info p { margin: 0; color: var(--muted); font-size: 15px; }
+
+@media (max-width: 720px) {
+  .specialist-card { flex-direction: column; text-align: center; gap: 16px; padding: 22px; }
+  .specialist-photo { width: 110px; height: 110px; }
+}
+
 /* ------- Contact grid ------- */
 .contact-grid {
   display: grid;

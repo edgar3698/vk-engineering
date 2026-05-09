@@ -3,6 +3,7 @@ window.I18N = {
     "nav.about": "About",
     "nav.services": "Services",
     "nav.brands": "Brands",
+    "nav.specialists": "Specialists",
     "nav.why": "Why us",
     "nav.contact": "Contact",
 
@@ -31,6 +32,11 @@ window.I18N = {
     "brands.title": "Brands we service",
     "brands.sub": "Trusted by manufacturers, used by surgeons.",
 
+    "specialists.title": "Our specialists",
+    "specialists.sub": "The people behind every repair.",
+    "specialists.p1.name": "Vazgen Martirosyan",
+    "specialists.p1.bio": "Graduated with honors from the National Polytechnic University of Armenia, Faculty of Radio Engineering. Over 10 years of experience.",
+
     "why.title": "Why choose us",
     "why.c1.title": "20 years of experience",
     "why.c1.body": "Two decades of hands-on repair work on the most demanding surgical instruments. Deep familiarity with every quirk of the brands we service.",
@@ -51,6 +57,7 @@ window.I18N = {
     "nav.about": "О нас",
     "nav.services": "Услуги",
     "nav.brands": "Бренды",
+    "nav.specialists": "Специалисты",
     "nav.why": "Почему мы",
     "nav.contact": "Контакты",
 
@@ -78,6 +85,11 @@ window.I18N = {
 
     "brands.title": "Бренды, которые мы обслуживаем",
     "brands.sub": "Доверие производителей, выбор хирургов.",
+
+    "specialists.title": "Наши специалисты",
+    "specialists.sub": "Люди, стоящие за каждым ремонтом.",
+    "specialists.p1.name": "Вазген Мартиросян",
+    "specialists.p1.bio": "С отличием окончил Национальный политехнический университет Армении, факультет радиотехники. Более 10 лет опыта работы.",
 
     "why.title": "Почему выбирают нас",
     "why.c1.title": "20 лет опыта",
