@@ -595,18 +595,13 @@ a:hover { color: var(--cyan); }
 .site-footer a:hover { color: var(--cyan); }
 .footer-inner {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  flex-wrap: wrap;
+  justify-content: center;
 }
-.footer-brand img {
+.footer-inner img {
   height: 36px;
   filter: brightness(0) invert(1);
   opacity: .95;
 }
-.footer-contacts a { font-weight: 600; }
-.footer-copy { font-size: 14px; color: #93a3bd; }
 
 /* ------- Reveal animation ------- */
 .reveal {
@@ -683,8 +678,7 @@ a:hover { color: var(--cyan); }
   .btn { padding: 12px 18px; font-size: 14px; }
   .cta-row { gap: 10px; }
 
-  .footer-inner { justify-content: center; text-align: center; gap: 14px; }
-  .footer-copy { width: 100%; }
+  .footer-inner { justify-content: center; }
 }
 
 @media (max-width: 420px) {
