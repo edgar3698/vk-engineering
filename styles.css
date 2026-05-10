@@ -620,6 +620,7 @@ a:hover { color: var(--cyan); }
 .contact-viber { background: #7360F2; }
 .contact-tg { background: #229ED9; }
 .contact-email { background: linear-gradient(135deg, var(--navy), var(--cyan)); }
+.contact-card[href^="mailto:"] .contact-value { font-size: 13px; letter-spacing: -0.01em; }
 .contact-card > div { min-width: 0; flex: 1; }
 .contact-label {
   display: block;
