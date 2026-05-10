@@ -424,14 +424,14 @@ a:hover { color: var(--cyan); }
 .cta-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
   margin-bottom: 22px;
 }
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 13px 22px;
+  gap: 8px;
+  padding: 12px 18px;
   font-weight: 600;
   font-size: 15px;
   border-radius: 999px;
@@ -620,6 +620,7 @@ a:hover { color: var(--cyan); }
 .contact-viber { background: #7360F2; }
 .contact-tg { background: #229ED9; }
 .contact-email { background: linear-gradient(135deg, var(--navy), var(--cyan)); }
+.contact-card > div { min-width: 0; flex: 1; }
 .contact-label {
   display: block;
   font-size: 13px;
@@ -629,8 +630,10 @@ a:hover { color: var(--cyan); }
 .contact-value {
   display: block;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--navy);
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 /* ------- Footer ------- */
