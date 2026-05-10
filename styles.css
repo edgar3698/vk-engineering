@@ -636,6 +636,31 @@ a:hover { color: var(--cyan); }
   overflow-wrap: anywhere;
 }
 
+/* ------- Toast ------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translate(-50%, 30px);
+  background: var(--navy);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 999px;
+  box-shadow: 0 12px 32px rgba(0, 42, 104, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 100;
+  transition: opacity .25s var(--ease), transform .25s var(--ease);
+  max-width: calc(100vw - 32px);
+  text-align: center;
+}
+.toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
 /* ------- Footer ------- */
 .site-footer {
   background: var(--navy);

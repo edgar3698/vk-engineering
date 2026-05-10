@@ -64,6 +64,39 @@
     );
   }
 
+  // ---------- Email links: copy to clipboard + try mailto ----------
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  document.body.appendChild(toast);
+  let toastTimer;
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2400);
+  }
+  document.querySelectorAll('a[href^="mailto:"]').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      const email = a.getAttribute('href').replace(/^mailto:/, '');
+      const lang = document.documentElement.lang || 'en';
+      const msg = lang === 'ru' ? 'Адрес скопирован: ' + email : 'Email copied: ' + email;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(email).catch(() => {});
+      } else {
+        try {
+          const t = document.createElement('textarea');
+          t.value = email;
+          document.body.appendChild(t);
+          t.select();
+          document.execCommand('copy');
+          document.body.removeChild(t);
+        } catch (_) {}
+      }
+      showToast(msg);
+      // mailto still triggers via default href navigation
+    });
+  });
+
   // ---------- Reveal on scroll ----------
   const reveals = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
