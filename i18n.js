@@ -15,6 +15,7 @@ window.I18N = {
     "cta.whatsapp": "WhatsApp",
     "cta.viber": "Viber",
     "cta.telegram": "Telegram",
+    "cta.email": "Email",
 
     "about.title": "About VK engineering",
     "about.p1": "VK engineering is a specialized workshop dedicated to repairing rigid endoscopes, laparoscopic instruments and high-precision surgical tools. We work with leading manufacturers including Storz, Olympus, Wolf, Ethicon and BARD.",
@@ -69,6 +70,7 @@ window.I18N = {
     "cta.whatsapp": "WhatsApp",
     "cta.viber": "Viber",
     "cta.telegram": "Telegram",
+    "cta.email": "Эл. почта",
 
     "about.title": "О VK engineering",
     "about.p1": "VK engineering — специализированная мастерская по ремонту жёстких эндоскопов, лапароскопических инструментов и высокоточных хирургических инструментов. Мы работаем с ведущими производителями: Storz, Olympus, Wolf, Ethicon и BARD.",

@@ -586,7 +586,7 @@ a:hover { color: var(--cyan); }
 /* ------- Contact grid ------- */
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
 }
 .contact-card {
@@ -619,6 +619,7 @@ a:hover { color: var(--cyan); }
 .contact-wa { background: #25D366; }
 .contact-viber { background: #7360F2; }
 .contact-tg { background: #229ED9; }
+.contact-email { background: linear-gradient(135deg, var(--navy), var(--cyan)); }
 .contact-label {
   display: block;
   font-size: 13px;
