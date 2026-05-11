@@ -6,6 +6,7 @@ window.I18N = {
     "nav.ba": "Before / After",
     "nav.specialists": "Specialists",
     "nav.why": "Why us",
+    "nav.certs": "Certificates",
     "nav.contact": "Contact",
 
     "hero.title1": "Professional",
@@ -59,6 +60,9 @@ window.I18N = {
     "why.c4.title": "Direct, honest service",
     "why.c4.body": "No middlemen, no upselling. You speak directly with the technician working on your equipment.",
 
+    "certs.title": "Certificates",
+    "certs.sub": "Authorized training and qualifications.",
+
     "contact.title": "Get in touch",
     "contact.sub": "Send a message on the channel you prefer — we usually reply within hours.",
 
@@ -72,6 +76,7 @@ window.I18N = {
     "nav.ba": "До / После",
     "nav.specialists": "Специалисты",
     "nav.why": "Почему мы",
+    "nav.certs": "Сертификаты",
     "nav.contact": "Контакты",
 
     "hero.title1": "Профессиональный",
@@ -124,6 +129,9 @@ window.I18N = {
     "why.c3.body": "Мы понимаем: простой стоит дороже ремонта. Диагностика начинается в день поступления оборудования.",
     "why.c4.title": "Прямой и честный сервис",
     "why.c4.body": "Никаких посредников и навязанных услуг. Вы общаетесь напрямую с мастером, который работает с вашим оборудованием.",
+
+    "certs.title": "Сертификаты",
+    "certs.sub": "Авторизованное обучение и квалификации.",
 
     "contact.title": "Свяжитесь с нами",
     "contact.sub": "Напишите в любом удобном мессенджере — обычно отвечаем в течение нескольких часов.",

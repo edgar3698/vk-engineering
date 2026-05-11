@@ -143,6 +143,36 @@
     });
   });
 
+  // ---------- Certificate lightbox ----------
+  const lightbox = document.querySelector('.cert-lightbox');
+  if (lightbox) {
+    const lbImg = lightbox.querySelector('.cert-lightbox-img');
+    const lbClose = lightbox.querySelector('.cert-lightbox-close');
+
+    const openLb = (src) => {
+      lbImg.src = src;
+      lightbox.classList.add('open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    };
+    const closeLb = () => {
+      lightbox.classList.remove('open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    };
+
+    document.querySelectorAll('.cert-card').forEach((card) => {
+      card.addEventListener('click', () => openLb(card.dataset.cert));
+    });
+    lbClose.addEventListener('click', closeLb);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLb();
+    });
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLb();
+    });
+  }
+
   // ---------- Reveal on scroll ----------
   const reveals = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
