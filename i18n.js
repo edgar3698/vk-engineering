@@ -3,6 +3,7 @@ window.I18N = {
     "nav.about": "About",
     "nav.services": "Services",
     "nav.brands": "Brands",
+    "nav.ba": "Before / After",
     "nav.specialists": "Specialists",
     "nav.why": "Why us",
     "nav.contact": "Contact",
@@ -33,6 +34,12 @@ window.I18N = {
     "brands.title": "Brands we service",
     "brands.sub": "Trusted by manufacturers, used by surgeons.",
 
+    "ba.title": "Before & After",
+    "ba.sub": "Real repairs from our workshop. Drag the slider to compare.",
+    "ba.before": "Before",
+    "ba.after": "After",
+    "ba.case1.caption": "Rigid endoscope tube repair",
+
     "specialists.title": "Our specialists",
     "specialists.sub": "The people behind every repair.",
     "specialists.p1.name": "Vazgen Martirosyan",
@@ -58,6 +65,7 @@ window.I18N = {
     "nav.about": "О нас",
     "nav.services": "Услуги",
     "nav.brands": "Бренды",
+    "nav.ba": "До / После",
     "nav.specialists": "Специалисты",
     "nav.why": "Почему мы",
     "nav.contact": "Контакты",
@@ -87,6 +95,12 @@ window.I18N = {
 
     "brands.title": "Бренды, которые мы обслуживаем",
     "brands.sub": "Доверие производителей, выбор хирургов.",
+
+    "ba.title": "До и после",
+    "ba.sub": "Реальные ремонты из нашей мастерской. Перетащите ползунок, чтобы сравнить.",
+    "ba.before": "До",
+    "ba.after": "После",
+    "ba.case1.caption": "Ремонт тубуса жёсткого эндоскопа",
 
     "specialists.title": "Наши специалисты",
     "specialists.sub": "Люди, стоящие за каждым ремонтом.",

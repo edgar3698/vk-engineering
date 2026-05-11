@@ -27,6 +27,7 @@
       <a href="#about" data-i18n="nav.about">About</a>
       <a href="#services" data-i18n="nav.services">Services</a>
       <a href="#brands" data-i18n="nav.brands">Brands</a>
+      <a href="#before-after" data-i18n="nav.ba">Before / After</a>
       <a href="#specialists" data-i18n="nav.specialists">Specialists</a>
       <a href="#why" data-i18n="nav.why">Why us</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
@@ -280,7 +281,34 @@
     </div>
   </section>
 
-  <section id="specialists" class="section section-alt">
+  <section id="before-after" class="section section-alt">
+    <div class="container">
+      <header class="section-head reveal">
+        <h2 class="h2" data-i18n="ba.title">Before &amp; After</h2>
+        <p class="muted" data-i18n="ba.sub">Real repairs from our workshop. Drag the slider to compare.</p>
+      </header>
+      <div class="ba-grid">
+        <article class="ba-card reveal">
+          <div class="ba-slider" data-pos="50">
+            <img class="ba-img ba-after-img" src="Assets/before_after_1/1_after.png" alt="After repair" draggable="false" />
+            <img class="ba-img ba-before-img" src="Assets/before_after_1/1_before.png" alt="Before repair" draggable="false" />
+            <span class="ba-tag ba-tag-before" data-i18n="ba.before">Before</span>
+            <span class="ba-tag ba-tag-after" data-i18n="ba.after">After</span>
+            <div class="ba-divider">
+              <button type="button" class="ba-handle" aria-label="Drag to compare">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <path fill="currentColor" d="M9 6 3 12l6 6V6zm6 0v12l6-6-6-6z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <p class="ba-caption" data-i18n="ba.case1.caption">Rigid endoscope tube repair</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="specialists" class="section">
     <div class="container">
       <header class="section-head reveal">
         <h2 class="h2" data-i18n="specialists.title">Our specialists</h2>
@@ -300,7 +328,7 @@
     </div>
   </section>
 
-  <section id="why" class="section">
+  <section id="why" class="section section-alt">
     <div class="container">
       <header class="section-head reveal">
         <h2 class="h2" data-i18n="why.title">Why choose us</h2>

@@ -97,6 +97,52 @@
     });
   });
 
+  // ---------- Before / After sliders ----------
+  document.querySelectorAll('.ba-slider').forEach((slider) => {
+    let dragging = false;
+
+    const setPos = (clientX) => {
+      const r = slider.getBoundingClientRect();
+      let pct = ((clientX - r.left) / r.width) * 100;
+      pct = Math.max(0, Math.min(100, pct));
+      slider.style.setProperty('--pos', pct + '%');
+    };
+
+    const start = (e) => {
+      dragging = true;
+      slider.classList.add('dragging');
+      // stop the intro animation so user input takes over
+      slider.style.animation = 'none';
+      const x = e.touches ? e.touches[0].clientX : e.clientX;
+      setPos(x);
+      e.preventDefault();
+    };
+    const move = (e) => {
+      if (!dragging) return;
+      const x = e.touches ? e.touches[0].clientX : e.clientX;
+      setPos(x);
+    };
+    const end = () => {
+      dragging = false;
+      slider.classList.remove('dragging');
+    };
+
+    slider.addEventListener('mousedown', start);
+    slider.addEventListener('touchstart', start, { passive: false });
+    window.addEventListener('mousemove', move);
+    window.addEventListener('touchmove', move, { passive: true });
+    window.addEventListener('mouseup', end);
+    window.addEventListener('touchend', end);
+    window.addEventListener('touchcancel', end);
+
+    // click anywhere on the slider also positions it
+    slider.addEventListener('click', (e) => {
+      if (e.target.closest('.ba-handle')) return;
+      slider.style.animation = 'none';
+      setPos(e.clientX);
+    });
+  });
+
   // ---------- Reveal on scroll ----------
   const reveals = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
