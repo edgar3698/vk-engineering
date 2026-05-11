@@ -641,7 +641,7 @@ a:hover { color: var(--cyan); }
 }
 @property --pos {
   syntax: '<percentage>';
-  inherits: false;
+  inherits: true;
   initial-value: 50%;
 }
 
