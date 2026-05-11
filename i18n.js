@@ -44,6 +44,10 @@ window.I18N = {
     "specialists.sub": "The people behind every repair.",
     "specialists.p1.name": "Vazgen Martirosyan",
     "specialists.p1.bio": "Graduated with honors from the National Polytechnic University of Armenia, Faculty of Radio Engineering. Over 10 years of experience.",
+    "specialists.p2.name": "Karen Martirosyan",
+    "specialists.p2.bio": "Engineer of medical devices. Served as Head of the Medical Equipment Repair Department of the RA Ministry of Defense for 15 years. Worked as an engineer at NTC Armenia for 5 years. Successfully completed training at the factory in Mandello del Lario (LC), Italy for installation and servicing of RADGIL 2. Over 20 years of experience.",
+    "specialists.p3.name": "Karen Mamikonyan",
+    "specialists.p3.bio": "Worked at the Scientific Research Center of Yerevan Polytechnic University for 8 years. Worked for the Red Cross for 12 years. Laboratory technician at Yerevan Central Military Hospital for 6 years.",
 
     "why.title": "Why choose us",
     "why.c1.title": "20 years of experience",
@@ -106,6 +110,10 @@ window.I18N = {
     "specialists.sub": "Люди, стоящие за каждым ремонтом.",
     "specialists.p1.name": "Вазген Мартиросян",
     "specialists.p1.bio": "С отличием окончил Национальный политехнический университет Армении, факультет радиотехники. Более 10 лет опыта работы.",
+    "specialists.p2.name": "Карен Мартиросян",
+    "specialists.p2.bio": "Инженер по медицинской технике. 15 лет возглавлял отдел ремонта медицинского оборудования Министерства обороны РА. 5 лет работал инженером в НТЦ Армения. Успешно прошёл обучение на заводе в Манделло-дель-Ларио (LC), Италия, по установке и обслуживанию RADGIL 2. Более 20 лет опыта.",
+    "specialists.p3.name": "Карен Мамиконян",
+    "specialists.p3.bio": "8 лет работал в Научно-исследовательском центре Ереванского политехнического университета. 12 лет работал в Красном Кресте. 6 лет лаборант Ереванского центрального военного госпиталя.",
 
     "why.title": "Почему выбирают нас",
     "why.c1.title": "20 лет опыта",
