@@ -668,9 +668,10 @@ a:hover { color: var(--cyan); }
 /* ------- Specialists ------- */
 .specialists-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 460px));
-  gap: 28px;
-  justify-content: center;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 720px;
+  margin: 0 auto;
 }
 .specialist-card {
   display: flex;
