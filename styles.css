@@ -464,6 +464,11 @@ a:hover { color: var(--cyan); }
   font-weight: 600;
   margin-left: 6px;
 }
+.phone-sep {
+  color: var(--line);
+  margin: 0 4px 0 8px;
+  font-weight: 700;
+}
 
 /* ------- Services ------- */
 .service { margin-bottom: 96px; }
