@@ -8,6 +8,7 @@ window.I18N = {
     "nav.why": "Why us",
     "nav.certs": "Certificates",
     "nav.contact": "Contact",
+    "nav.location": "Location",
 
     "hero.title1": "Professional",
     "hero.title2": "medical equipment repair",
@@ -66,6 +67,11 @@ window.I18N = {
     "contact.title": "Get in touch",
     "contact.sub": "Send a message on the channel you prefer — we usually reply within hours.",
 
+    "location.title": "Find us",
+    "location.address": "1st Street 1st Lane, 30/2, Village of Nor Kharberd, Ararat Region",
+    "location.yandex": "Open in Yandex Maps",
+    "location.google": "Open in Google Maps",
+
     "footer.rights": "All rights reserved."
   },
 
@@ -78,6 +84,7 @@ window.I18N = {
     "nav.why": "Почему мы",
     "nav.certs": "Сертификаты",
     "nav.contact": "Контакты",
+    "nav.location": "Адрес",
 
     "hero.title1": "Профессиональный",
     "hero.title2": "ремонт медицинского оборудования",
@@ -135,6 +142,11 @@ window.I18N = {
 
     "contact.title": "Свяжитесь с нами",
     "contact.sub": "Напишите в любом удобном мессенджере — обычно отвечаем в течение нескольких часов.",
+
+    "location.title": "Как нас найти",
+    "location.address": "1-й переулок 1-й улицы, 30/2, село Нор Харберд, Араратская область",
+    "location.yandex": "Открыть в Яндекс Картах",
+    "location.google": "Открыть в Google Картах",
 
     "footer.rights": "Все права защищены."
   }
